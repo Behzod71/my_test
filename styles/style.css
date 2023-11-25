@@ -1,0 +1,73 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 100px auto;
+  background-color: aqua;
+  animation: test 7s 2 linear;
+  display: flex;
+  align-items: center;
+}
+.box .elem {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: palevioletred;
+  animation: test2 7s 2 linear;
+}
+
+@keyframes test {
+  0% {
+    transform: rotate(0deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.7);
+  }
+  100% {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+@keyframes test2 {
+  0% {
+    transform: rotate(0deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.7);
+  }
+  100% {
+    transform: rotate(0deg) scale(1.1);
+  }
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  margin: 300px auto;
+  background-color: crimson;
+  border-radius: 40%;
+  animation: test3 7s 2 linear;
+  display: flex;
+  align-items: center;
+}
+.box2 .elem2 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  animation: test3 7s 2 linear;
+}
+
+@keyframes test3 {
+  0% {
+    transform: rotate(0deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.7);
+  }
+  100% {
+    transform: rotate(360deg) scale(1.1);
+  }
+}/*# sourceMappingURL=style.css.map */
